@@ -1,0 +1,23 @@
+{
+  "languages": [
+    {
+      "extension": "java",
+      "regex": "@Tag\\(([^\\)]+)\\)",
+      "divider": ",",
+      "start": "@Tag(",
+      "end": ")",
+      "ignore": [
+        "{",
+        "}"
+      ]
+    },
+    {
+      "extension": "kt",
+      "regex": "@Tag\\(([^\\)]+)\\)",
+      "divider": ",",
+      "start": "@Tag(",
+      "end": ")",
+      "ignore": []
+    }
+  ]
+}
